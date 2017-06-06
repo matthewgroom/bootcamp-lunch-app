@@ -3,6 +3,8 @@
 # https://www.playframework.com/documentation/latest/ScalaRouting
 # ~~~~
 
+GET     /welcome                    controllers.WelcomeController.welcome
+
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
 

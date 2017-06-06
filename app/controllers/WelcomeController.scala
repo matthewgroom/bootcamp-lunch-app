@@ -1,8 +1,13 @@
+
 package controllers
 
-/**
-  * Created by temp on 06/06/17.
-  */
-class WelcomeController {
+import play.api.mvc.{Action, Controller}
+
+class WelcomeController extends Controller {
+
+  def welcome() = Action {
+    Ok(views.html.welcome())
+
+  }
 
 }
